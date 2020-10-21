@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'stpelleg-linux-python'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_68311cf3ccc2435ca74e47e5c810db21 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9f8f44e4de234e13b3cf60f8fb282c4f }}
