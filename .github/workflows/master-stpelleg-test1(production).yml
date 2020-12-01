@@ -33,6 +33,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: stpelleg-test1
-        slot-name: Production
+        slot-name: production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F07D5E6E92F348DAB73CB99C72D9A94A }}
 
