@@ -28,6 +28,7 @@ jobs:
         platform-version: '3.8'
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     
     steps:
