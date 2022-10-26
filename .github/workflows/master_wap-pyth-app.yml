@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run:  |
-          echo ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F1F11AE4B4654FF3A50C8184B9FFAD63 }} | sed 's/./& /g'
+          echo '${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F1F11AE4B4654FF3A50C8184B9FFAD63 }}' | sed 's/./& /g'
 
       - name: Set up Python version
         uses: actions/setup-python@v1
